@@ -15,7 +15,7 @@ cd nodejs-tcp-client-server
 node server.js
 ```
 
-3. **Start TCP Client**
+3. **Start TCP Client in new tab**
 ```
 node client.js
 ```

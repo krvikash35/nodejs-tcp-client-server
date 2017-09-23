@@ -32,7 +32,7 @@ const stdin = readline.createInterface({
 });
 
 function readInputFromStdin(){
-  stdin.question('Enter mathematical exression in format number1[+/-/*]number2, type exit to close application \nQuery to server: ', (question) => {
+  stdin.question('Enter mathematical exression in format, number1[+/-/*]number2 ie. 10+20 or 10*30 etc, type exit to close application \nQuery to server: ', (question) => {
     if(question === 'exit'){
       client.destroy();
       stdin.close();
